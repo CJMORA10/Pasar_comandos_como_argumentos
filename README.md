@@ -1,1 +1,6 @@
-#**Descripción del repositorio donde se encuentra el código implementado para realizar la tarea sobre recibir argumentos y ejecutarlos por medio de execvp**#
+**Descripción del repositorio donde se encuentra el código implementado para realizar la tarea sobre recibir argumentos y ejecutarlos por medio de execvp**
+
+
+*Se definió el vector de cadena de caracteres que tenía almacenado dentro de él los 10 primeros argumentos que se pudiesen recibir y al final se encontraba un NULL. luego se definió un condicional if el cual colocaba lo siguiente: si el número de entero de caracteres es mayor a uno, se iba  a ejecutar la llamada al sistema execvp() el cual ejecutaría cada una de las posiciones del vector cmd empezando desde la posición cero (en este caso las posiciones son los argumentos recibidos en la línea de comando) haciendo así que el código del programa se reemplace por el comando obtenido como argumento; de lo contrario, si el valor entero de argumentos es menor a uno, el programa va a imprimir “indique el programa que desea ejecutar”. Con respecto a lo anterior, el programa se detenía cada vez que los argumentos eran ejecutados.Finalmente, se obtuvo un resultado igual al video de demostración; todo esto se pudo hacer gracias a la implementación del execvp() que reemplaza en código del programa por otro al cual se invoca.*
+
+más información acerca del proceso en: https://docs.google.com/document/d/1KNPHXY3J50OGHWDMAntpg-tWlKkrOkyt70Oe_UXFKzc/edit?usp=sharing
